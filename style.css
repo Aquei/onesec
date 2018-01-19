@@ -1,0 +1,25 @@
+/*
+Theme Name: OneSec
+Theme URI: https://github.com/Aquei/onesec
+Author: Aquei	
+Author URI: https://blog.srytk.com/aquei/
+Description: The simple theme
+Version: 1.0.0
+License: Apache v2
+License URI: http://www.apache.org/licenses/
+Tags: light
+Text Domain: onesec
+
+１秒間だけ待ってやる！
+*/
+body{background-color:#eee;margin:0;font-family:sans-serif;}
+.main{background-color:#146262;text-align:center;display:flex;flex-direction:column;justify-content:center;}
+body>*:not(.main):not(#wpadminbar){max-width:728px;margin:0 auto;}
+.main{padding-top:1em;}
+@media (min-width:1228px){.main{position:fixed;width:500px;height:100vh;top:0;left:0;padding-top:0;}body>*:not(.main):not(#wpadminbar){margin-left:500px;padding-left:100px;}}
+.main h1{padding:0 3em;margin:0;font-size:1em;}
+.main h2{font-size:.75em;color:#eee;padding:1em 4em;}
+.thin{font-weight:100}
+.main a{background-color:#146262;color:#eee;text-decoration:none;border-radius:1em;padding: 1em;display:inline-block;border:1px solid #eee}
+body>footer{text-align:center;padding:1.25em 0;}
+.onesec-btn{border-radius:1em;padding:1em 2em;text-decoration:none;display:inline-block;background-color:#146262;color:#eee;}
